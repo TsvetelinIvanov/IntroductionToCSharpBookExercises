@@ -18,6 +18,7 @@ namespace _14PrimeNumber
                 }
                 divider++;
             }
+            
             Console.WriteLine("Prime? " + prime);
         }
     }
