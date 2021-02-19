@@ -13,6 +13,7 @@ namespace _05_DivisibleOn5
             {
                 divisiblesCount++;
             }
+            
             Console.WriteLine(divisiblesCount);
         }
     }
