@@ -1,0 +1,1 @@
+﻿This text is writen in file, but word in book is not this. It is word in book and car or bus.
