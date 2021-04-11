@@ -41,6 +41,59 @@ namespace _05EstateCompany
             Console.WriteLine(estateCompany4.RemoveEstate(shop));          
 
             Console.WriteLine(estateCompany4);
+            
+            //Output:
+            //Company Name: First Company
+            //Bulstat: 111111111
+            //Employees(3): Employee Name: First Employee, Position: Boss, Intership: 120 months; Employee Name: Second Employee, Position: Employee, Intership: 18 months; Employee Name: Third Employee, Position: Employee, Intership: 1 months.
+            //Estates: 4
+            //Type: Apartment, Area: 46 square meters, Price: $1739.13 per square meter($79999.98 in total), Location: Lulin 6, Floor: 8, Elevator: Yes, Furnished: No.
+            //Type: House, Area: 120 square meters, Price: $500.00 per square meter($60000.00 in total), Location: Chepintsi, Built Up Area: 39 square meters, Not Built Up Area: 81 square meters, Floors: 2, Furnished: Yes.
+            //Type: Shop, Area: 15 square meters, Price: $3573.17 per square meter($53597.55 in total), Location: Studentski Grad.
+            //Type: Area, Area: 300 square meters, Price: $100.00 per square meter($30000.00 in total), Location: Breznik.
+            //--------------------
+            //Company Name: Second Company
+            //Bulstat: 111111112
+            //Employees(0): .
+            //Estates: 4
+            //Type: Apartment, Area: 46 square meters, Price: $1739.13 per square meter($79999.98 in total), Location: Lulin 6, Floor: 8, Elevator: Yes, Furnished: No.
+            //Type: House, Area: 120 square meters, Price: $500.00 per square meter($60000.00 in total), Location: Chepintsi, Built Up Area: 39 square meters, Not Built Up Area: 81 square meters, Floors: 2, Furnished: Yes.
+            //Type: Shop, Area: 15 square meters, Price: $3573.17 per square meter($53597.55 in total), Location: Studentski Grad.
+            //Type: Area, Area: 300 square meters, Price: $100.00 per square meter($30000.00 in total), Location: Breznik.
+            //--------------------
+            //Company Name: Third Company
+            //Bulstat: 111111113
+            //Employees(3): Employee Name: First Employee, Position: Boss, Intership: 120 months; Employee Name: Second Employee, Position: Employee, Intership: 18 months; Employee Name: Third Employee, Position: Employee, Intership: 1 months.
+            //Estates: 0
+
+            //--------------------
+            //Company Name: Fourth Company
+            //Bulstat: 111111114
+            //Employees(0): .
+            //Estates: 0
+
+            //--------------------
+            //True
+            //True
+            //True
+            //False
+            //True
+            //False
+            //True
+            //True
+            //True
+            //True
+            //False
+            //True
+            //False
+            //Company Name: Fourth Company
+            //Bulstat: 111111114
+            //Employees(2): Employee Name: First Employee, Position: Boss, Intership: 120 months; Employee Name: Third Employee, Position: Employee, Intership: 1 months.
+            //Estates: 3
+            //Type: Apartment, Area: 46 square meters, Price: $1739.13 per square meter($79999.98 in total), Location: Lulin 6, Floor: 8, Elevator: Yes, Furnished: No.
+            //Type: House, Area: 120 square meters, Price: $500.00 per square meter($60000.00 in total), Location: Chepintsi, Built Up Area: 39 square meters, Not Built Up Area: 81 square meters, Floors: 2, Furnished: Yes.
+            //Type: Area, Area: 300 square meters, Price: $100.00 per square meter($30000.00 in total), Location: Breznik.
+            //--------------------
         }
     }
 }
