@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01CountWordsInText", "01CountWordsInText\01CountWordsInText.csproj", "{4F88F3A4-07F8-43E0-B721-9DE22CAAB40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02SieveOfEratosthenes", "02SieveOfEratosthenes\02SieveOfEratosthenes.csproj", "{5A5BDB23-EE5A-47FE-BED6-72657FEA17F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03ArithmeticalExpressionWithMultiplyAndDivide", "03ArithmeticalExpressionWithMultiplyAndDivide\03ArithmeticalExpressionWithMultiplyAndDivide.csproj", "{35EF9EA5-3B04-4BED-BC05-A99296E59D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04ArithmeticalExpressionWithRealNumbers", "04ArithmeticalExpressionWithRealNumbers\04ArithmeticalExpressionWithRealNumbers.csproj", "{BA5F78C3-F014-42E7-9236-CE9AEDF8896E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05ArithmeticalExpressionWithParentheses", "05ArithmeticalExpressionWithParentheses\05ArithmeticalExpressionWithParentheses.csproj", "{BFF617CB-8317-4800-8095-DC3190A754A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06ValidateArithmeticalExpression", "06ValidateArithmeticalExpression\06ValidateArithmeticalExpression.csproj", "{B4E9791B-8D07-4B38-AE7B-B736088B338C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F88F3A4-07F8-43E0-B721-9DE22CAAB40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F88F3A4-07F8-43E0-B721-9DE22CAAB40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F88F3A4-07F8-43E0-B721-9DE22CAAB40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F88F3A4-07F8-43E0-B721-9DE22CAAB40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5BDB23-EE5A-47FE-BED6-72657FEA17F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5BDB23-EE5A-47FE-BED6-72657FEA17F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5BDB23-EE5A-47FE-BED6-72657FEA17F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5BDB23-EE5A-47FE-BED6-72657FEA17F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EF9EA5-3B04-4BED-BC05-A99296E59D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EF9EA5-3B04-4BED-BC05-A99296E59D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EF9EA5-3B04-4BED-BC05-A99296E59D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EF9EA5-3B04-4BED-BC05-A99296E59D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5F78C3-F014-42E7-9236-CE9AEDF8896E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5F78C3-F014-42E7-9236-CE9AEDF8896E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5F78C3-F014-42E7-9236-CE9AEDF8896E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5F78C3-F014-42E7-9236-CE9AEDF8896E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF617CB-8317-4800-8095-DC3190A754A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF617CB-8317-4800-8095-DC3190A754A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF617CB-8317-4800-8095-DC3190A754A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF617CB-8317-4800-8095-DC3190A754A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E9791B-8D07-4B38-AE7B-B736088B338C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E9791B-8D07-4B38-AE7B-B736088B338C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E9791B-8D07-4B38-AE7B-B736088B338C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E9791B-8D07-4B38-AE7B-B736088B338C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F30ADCBD-8C17-41AA-BA6C-F0C5FC9C3856}
+	EndGlobalSection
+EndGlobal
