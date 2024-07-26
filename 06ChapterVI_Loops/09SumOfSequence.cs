@@ -11,6 +11,7 @@ namespace _09SumOfSequence
             if (N < 0 || X == 0)
             {
                 Console.WriteLine("Invalid input!");
+                
                 return;
             }
 
