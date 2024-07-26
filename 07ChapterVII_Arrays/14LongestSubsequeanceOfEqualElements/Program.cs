@@ -13,6 +13,7 @@ namespace _14LongestSubsequeanceOfEqualElements
             if (rowsCountN < 0 || columnsCountM < 0)
             {
                 Console.WriteLine("Invalid input!");
+                
                 return;
             }
 
