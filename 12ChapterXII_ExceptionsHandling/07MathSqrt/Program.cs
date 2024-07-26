@@ -24,7 +24,6 @@ namespace _07MathSqrt
             {
                 Console.WriteLine("Good Bye!");
             }
-
         }
     }
 }
