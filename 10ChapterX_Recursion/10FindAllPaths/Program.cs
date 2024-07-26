@@ -44,6 +44,7 @@ namespace _10FindAllPaths
                         x = row;
                         y = col;
                         labyrinth[row, col] = '.';
+                        
                         return;
                     }
                 }
@@ -90,6 +91,7 @@ namespace _10FindAllPaths
         {
             bool isRowInRange = row >= 0 && row < labyrinth.GetLength(0);
             bool isColInRange = col >= 0 && col < labyrinth.GetLength(1);
+            
             return isRowInRange && isColInRange;
         }
 
