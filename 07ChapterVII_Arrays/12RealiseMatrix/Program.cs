@@ -10,6 +10,7 @@ namespace _12RealiseMatrix
             if (size <= 0) 
             {
                 Console.WriteLine("Ïnvalid input!");
+                
                 return;
             }
 
