@@ -14,6 +14,7 @@ namespace _09_PointOutOfRectangleAndInCircle
             {
                 isInTheCircle = true;
             }
+            
             int x1 = -1;
             int y1 = 1;
             int x2 = 5;
@@ -23,6 +24,7 @@ namespace _09_PointOutOfRectangleAndInCircle
             {
                 isOutOfTheRectangle = true;
             }
+            
             Console.WriteLine(isInTheCircle && isOutOfTheRectangle);
         }
     }
