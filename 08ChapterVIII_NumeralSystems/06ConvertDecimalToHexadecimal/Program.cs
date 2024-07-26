@@ -10,6 +10,7 @@ namespace _06ConvertDecimalToHexadecimal
             if (decimalNumber == 0)
             {
                 Console.WriteLine(decimalNumber);
+                
                 return;
             }
 
