@@ -12,6 +12,7 @@ namespace _16BinarySearch
             if (!array.Contains(number))
             {
                 Console.WriteLine("The number is not in this array!");
+                
                 return;
             }
 
@@ -23,6 +24,7 @@ namespace _16BinarySearch
                 if (array[currentIndex] == number)
                 {
                     Console.WriteLine(currentIndex);
+                    
                     return;
                 }
                 else if (array[currentIndex] > number)
