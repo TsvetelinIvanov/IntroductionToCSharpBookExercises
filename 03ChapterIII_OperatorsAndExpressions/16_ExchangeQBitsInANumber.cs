@@ -62,6 +62,7 @@ namespace _16_ExchangeQBitsInANumber
         private static int DoPthBit(uint number, int position)
         {
             uint pthBit = (number >> position) & 1;
+            
             return (int)pthBit;
         }
 
@@ -70,6 +71,7 @@ namespace _16_ExchangeQBitsInANumber
             uint actual = (uint)bitValue << position;
             number = number & (~((uint)1 << position));
             uint result = number | actual;
+            
             return result;
         }
     }
