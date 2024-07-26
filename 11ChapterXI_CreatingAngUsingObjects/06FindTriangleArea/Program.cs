@@ -19,6 +19,7 @@ namespace _06FindTriangleArea
                     Console.WriteLine("Please, input value for c:");
                     double c = double.Parse(Console.ReadLine());
                     Console.WriteLine(FindArea(a, b, c));
+                    
                     return;
                 case "b":
                     Console.WriteLine("Please, input value for a:");
@@ -26,6 +27,7 @@ namespace _06FindTriangleArea
                     Console.WriteLine("Please, input value for h:");
                     double h = double.Parse(Console.ReadLine());
                     Console.WriteLine(FindArea(a, h));
+                    
                     return;
                 case "c":
                     Console.WriteLine("Please, input value for a:");
@@ -35,9 +37,11 @@ namespace _06FindTriangleArea
                     Console.WriteLine("Please, input value for the angle between a and b:");
                     float angle = float.Parse(Console.ReadLine());
                     Console.WriteLine(FindArea(a, b, angle));
+                    
                     return;
                 default:
                     Console.WriteLine("Please, input a, b or c as a subtask choice!");
+                    
                     return;
             }
         }
@@ -45,6 +49,7 @@ namespace _06FindTriangleArea
         static double FindArea(double a, double b, double c)
         {
             double p = (a + b + c) / 2;
+            
             return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
         }
 
