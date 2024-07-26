@@ -12,6 +12,7 @@ namespace _14DecimalToHexadecimal
             if (number == 0)
             {
                 Console.WriteLine(0);
+                
                 return;
             }
 
