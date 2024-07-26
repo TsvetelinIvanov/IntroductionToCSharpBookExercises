@@ -13,11 +13,13 @@ namespace _03LexicographicalComparison
                 if (firstCharArray[i] < secondCharArray[i])
                 {
                     Console.WriteLine(string.Join("", firstCharArray));
+                    
                     return;
                 }
                 else if (firstCharArray[i] > secondCharArray[i])
                 {
                     Console.WriteLine(string.Join("", secondCharArray));
+                    
                     return;
                 }
             }
