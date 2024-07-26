@@ -12,6 +12,7 @@ namespace _07MultiplyAndDivideFactorials
             if (K >= N || K <= 1 || N <= 1)
             {
                 Console.WriteLine("Invalid input!");
+                
                 return;
             }
 
@@ -28,7 +29,6 @@ namespace _07MultiplyAndDivideFactorials
             }
 
             BigInteger result = firstFactorial * secondFactorial;
-
             Console.WriteLine(result);
         }
     }
