@@ -10,6 +10,7 @@ namespace _04ConvertDecimalToBinary
             if (decimalNumber == 0)
             {
                 Console.WriteLine(decimalNumber);
+                
                 return;
             }
 
