@@ -12,6 +12,7 @@ namespace _21SubsetKElementsEqualToSum
             if (numbersLengthN > 20)
             {
                 Console.WriteLine("Invalid input! The count of numbers must not be bigger than 20.");
+                
                 return;
             }
 
@@ -37,7 +38,6 @@ namespace _21SubsetKElementsEqualToSum
             {
                 Console.WriteLine("No subset with sum {0} found.", expectedSumS);
             }
-
         }
 
         private static void FindSubset(int[] numbers, int[] subset, int expectedSum, int endIndex, int startIndex, int subsetLength)
@@ -45,6 +45,7 @@ namespace _21SubsetKElementsEqualToSum
             if (endIndex == subsetLength)
             {
                 CheckSubsets(subset, expectedSum, subsetLength);
+                
                 return;
             }
 
