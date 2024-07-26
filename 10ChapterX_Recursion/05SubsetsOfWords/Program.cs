@@ -37,6 +37,7 @@ namespace _05SubsetsOfWords
             else
             {
                 ApendSubset(subset);
+                
                 return;
             }
         }
