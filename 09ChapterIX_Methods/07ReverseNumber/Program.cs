@@ -15,6 +15,7 @@ namespace _07ReverseNumber
             if (number == 0)
             {
                 Console.WriteLine(0);
+                
                 return;
             }
             else if (number < 0)
