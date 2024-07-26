@@ -72,6 +72,7 @@ namespace _26PrintMatrix
                     matrix[newRow + 1, diagonal] = matrix[newRow, diagonal - 1] + 1;
                     newRow++;
                 }
+                
                 counter++;
             }
 
