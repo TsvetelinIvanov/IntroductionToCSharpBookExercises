@@ -10,6 +10,7 @@ namespace _08ConvertHexadecimalToBinary
             if (hexadecimalNumberString.StartsWith("0") && int.TryParse(hexadecimalNumberString, out int number) && number == 0)
             {
                 Console.WriteLine("0000");
+                
                 return;
             }
 
