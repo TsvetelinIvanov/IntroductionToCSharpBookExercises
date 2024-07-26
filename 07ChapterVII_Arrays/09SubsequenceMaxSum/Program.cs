@@ -22,6 +22,7 @@ namespace _09SubsequenceMaxSum
             //        }
             //    }
             //}
+            
             int currentSum = 0;
             for (int i = 0; i < numbers.Length; i++)
             {
