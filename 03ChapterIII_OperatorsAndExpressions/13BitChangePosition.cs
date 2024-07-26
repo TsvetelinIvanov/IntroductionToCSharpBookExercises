@@ -24,7 +24,6 @@ namespace _13BitChangePosition
             {
                 Console.WriteLine("Error");
             }
-
         }
     }
 }
