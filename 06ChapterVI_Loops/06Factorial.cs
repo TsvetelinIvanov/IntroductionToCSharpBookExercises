@@ -11,6 +11,7 @@ namespace _06Factorial
             if (K >= N || K <= 1 || N <= 1)
             {
                 Console.WriteLine("Invalid input!");
+                
                 return;
             }
 
