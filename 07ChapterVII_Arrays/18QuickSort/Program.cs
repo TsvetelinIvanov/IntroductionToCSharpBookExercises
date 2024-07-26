@@ -52,7 +52,6 @@ namespace _18QuickSort
             {
                 QuickSort(array, i, right);
             }
-
         }
     }
 }
