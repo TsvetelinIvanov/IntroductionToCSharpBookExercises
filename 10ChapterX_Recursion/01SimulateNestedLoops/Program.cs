@@ -26,6 +26,7 @@ namespace _01SimulateNestedLoops
                 }
 
                 Console.WriteLine();
+                
                 return;
             }
 
