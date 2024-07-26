@@ -20,6 +20,7 @@ namespace _25Combinations
             if (startNumber == array.Length)
             {
                 PrintArray(array);
+                
                 return;
             }
 
