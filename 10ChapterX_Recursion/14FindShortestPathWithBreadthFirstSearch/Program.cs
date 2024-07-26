@@ -47,6 +47,7 @@ namespace _14FindShortestPathWithBreadthFirstSearch
                         x = row;
                         y = col;
                         labyrinth[row, col] = ' ';
+                        
                         return;
                     }
                 }
@@ -65,6 +66,7 @@ namespace _14FindShortestPathWithBreadthFirstSearch
             if (labyrinth[cell.Item1, cell.Item2] == 'e')
             {
                 CalculatePathLength();
+                
                 return;
             }
             
@@ -93,6 +95,7 @@ namespace _14FindShortestPathWithBreadthFirstSearch
             if (cells.Count == 0)
             {
                 Console.WriteLine("No");
+                
                 return;
             }
 
@@ -122,7 +125,6 @@ namespace _14FindShortestPathWithBreadthFirstSearch
             }
 
             pathLength++;
-
             Console.WriteLine(pathLength);
         }
 
@@ -130,6 +132,7 @@ namespace _14FindShortestPathWithBreadthFirstSearch
         {
             bool isRowInRange = row >= 0 && row < labyrinth.GetLength(0);
             bool isColInRange = col >= 0 && col < labyrinth.GetLength(1);
+            
             return isRowInRange && isColInRange;
         }
     }
