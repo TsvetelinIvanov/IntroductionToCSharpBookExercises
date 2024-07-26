@@ -12,6 +12,7 @@ namespace _12DecimalToBinary
             if (number == 0)
             {
                 Console.WriteLine(0);
+                
                 return;
             }
 
