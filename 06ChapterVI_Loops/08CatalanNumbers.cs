@@ -11,12 +11,14 @@ namespace _08CatalanNumbers
             if (N < 0)
             {
                 Console.WriteLine("Invalid input!");
+                
                 return;
             }
 
             if (N == 0 || N == 1)
             {
                 Console.WriteLine("1");
+                
                 return;
             }
 
