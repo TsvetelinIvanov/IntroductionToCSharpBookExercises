@@ -14,6 +14,7 @@ namespace _01ConvertFromDecimalToBinary
                 if (integer == 0)
                 {
                     Console.WriteLine(0);
+                    
                     return;
                 }
 
