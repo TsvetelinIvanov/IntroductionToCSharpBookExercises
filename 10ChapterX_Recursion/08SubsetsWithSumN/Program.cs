@@ -34,8 +34,7 @@ namespace _08SubsetsWithSumN
             else
             {
                 Console.WriteLine($"No subsets with sum {sumN} found.");
-            }
-            
+            }            
         }
 
         static void FindSubset(int[] subset, int startIndex)
