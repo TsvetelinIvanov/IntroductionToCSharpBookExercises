@@ -25,6 +25,7 @@ namespace _09ConvertBinaryToHexadecimal
             if (clearAndReversedBinaryNumberString == string.Empty)
             {
                 Console.WriteLine(0);
+                
                 return;
             }
 
