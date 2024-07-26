@@ -41,6 +41,7 @@ namespace _06MaxSequenceOfIncreasingElements
                     break;
                 }
             }
+            
             //for (int i = lengths.Length - 1; i >= 0; i--)
             //{
             //    if (lengths[i] == maxLength)
