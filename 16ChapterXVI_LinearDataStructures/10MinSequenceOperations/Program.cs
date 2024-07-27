@@ -12,9 +12,9 @@ namespace _10MinSequenceOperations
             if (startNumberN < 0 || endNumberM < 0 || endNumberM < startNumberN)
             {
                 Console.WriteLine("Invalid input!");
+                
                 return;
             }
-
 
             Stack<int> sequence = ProceedOperations(startNumberN, endNumberM);
 
