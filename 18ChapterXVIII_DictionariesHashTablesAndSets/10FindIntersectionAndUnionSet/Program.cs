@@ -105,7 +105,7 @@ namespace _10FindIntersectionAndUnionSet
 
 		private static void PrintSet(HashSet<int> set)
 		{
-            Console.WriteLine(string.Join(", ", set));
+            		Console.WriteLine(string.Join(", ", set));
 		}
 	}
 }
