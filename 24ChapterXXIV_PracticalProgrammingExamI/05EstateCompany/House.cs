@@ -21,6 +21,7 @@
         public override string ToString()
         {
             string furniturePresence = this.IsFurnished ? "Yes" : "No";
+            
             return base.ToString() + $", Built Up Area: {this.BuiltUpSquareMeterArea} square meters, Not Built Up Area: {this.NotBuiltUpSquareMeterArea} square meters, Floors: {this.FloorsCount}, Furnished: {furniturePresence}.";
         }
     }
