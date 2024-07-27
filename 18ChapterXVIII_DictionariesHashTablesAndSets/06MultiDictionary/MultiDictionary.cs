@@ -58,14 +58,14 @@ namespace _06MultiDictionary
 		public bool ContainsValue(V value)
 		{
 			bool containsValue = false;
-            foreach (List<V> values in this.container.Values)
-            {
-                if (values.Contains(value))
-                {
+            		foreach (List<V> values in this.container.Values)
+            		{
+                		if (values.Contains(value))
+                		{
 					containsValue = true;
 					break;
-                }
-            }
+                		}
+            		}
 
 			return containsValue;
 		}
@@ -88,9 +88,9 @@ namespace _06MultiDictionary
 		public bool RemoveValue(K key, V value)
 		{
 			if (!this.ContainsKey(key))
-            {
+            		{
 				return false;
-            }
+            		}
 
 			return this.container[key].Remove(value);
 		}
@@ -103,23 +103,23 @@ namespace _06MultiDictionary
 		public List<V> GetValues(K key)
 		{
 			if (!this.container.ContainsKey(key))
-            {
+            		{
 				return new List<V>();
-            }
+            		}
 
 			return this.container[key];
 		}
 
-        public IEnumerator<KeyValuePair<K, List<V>>> GetEnumerator()
-        {
-            foreach (KeyValuePair<K, List<V>> keyValuePair in this.container)
-            {
+        	public IEnumerator<KeyValuePair<K, List<V>>> GetEnumerator()
+        	{
+            		foreach (KeyValuePair<K, List<V>> keyValuePair in this.container)
+            		{
 				yield return keyValuePair;
-            }
-        }
+            		}
+        	}
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
+        	IEnumerator IEnumerable.GetEnumerator()
+        	{
 			return this.GetEnumerator();
 		}
     }
