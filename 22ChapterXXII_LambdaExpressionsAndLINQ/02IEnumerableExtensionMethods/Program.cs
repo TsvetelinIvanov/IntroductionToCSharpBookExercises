@@ -12,6 +12,7 @@ namespace _02IEnumerableExtensionMethods
             if (numbers.Length() == 0)
             {
                 Console.WriteLine("You must enter at least one number!");
+                
                 return;
             }
 
