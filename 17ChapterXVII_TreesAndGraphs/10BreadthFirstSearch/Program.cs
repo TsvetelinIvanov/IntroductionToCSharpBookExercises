@@ -36,7 +36,7 @@ namespace _10BreadthFirstSearch
 		{
 			Graph graph = CreateGraph();
 			graph.BreadthFirstSearch();
-            Console.WriteLine();
+            		Console.WriteLine();
 		}
 	}
 }
