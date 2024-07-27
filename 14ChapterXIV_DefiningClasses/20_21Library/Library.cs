@@ -29,6 +29,7 @@ namespace _20_21Library
         public string AddBook(Book book)
         {
             this.books.Add(book);
+            
             return $"Book with title {book.Title}, from author {book.Author} is added to library.";
         }
 
