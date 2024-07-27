@@ -66,7 +66,6 @@ namespace _03FileSystem
 
             foreach (Directory subdirectory in directory.Directories)
             {
-
                 fileSystemBuilder.Append(DepthFirstSearchTraversal(subdirectory, pathBuilder.ToString()));
             }
 
