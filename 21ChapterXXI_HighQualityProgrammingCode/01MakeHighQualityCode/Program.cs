@@ -40,7 +40,6 @@ namespace _01MakeHighQualityCode
             }
 
             Console.WriteLine("We finished the switch-case loop!");
-
         }
     }
 }
