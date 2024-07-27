@@ -28,6 +28,7 @@ namespace _07CheckEmptyHall
             if (checkedEvents.Count == 0)
             {
                 Console.WriteLine("The hall is empty!");
+                
                 return;
             }
             
