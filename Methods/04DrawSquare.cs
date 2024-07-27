@@ -12,6 +12,7 @@ namespace DrawSquareIV
             //{
             //    PrintMiddleRow(input);
             //}
+            
             //PrintHeaderFooter(input);
             DrawSquare(input); //optimization
         }
@@ -23,6 +24,7 @@ namespace DrawSquareIV
             {
                 PrintMiddleRow(n);
             }
+            
             PrintHeaderFooter(n);
         }
 
