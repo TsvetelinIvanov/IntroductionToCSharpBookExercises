@@ -33,7 +33,6 @@ namespace _12DynamicStack
 
         public Node<T> Pop()
         {
-
             if (this.Count == 0)
             {
                 throw new InvalidOperationException("The stack is empty!");                
