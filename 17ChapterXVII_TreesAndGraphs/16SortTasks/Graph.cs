@@ -65,12 +65,14 @@ namespace _16SortTasks
 			if (hasCycles)
 			{
 				Console.WriteLine("Cannot sort!");
+				
 				return;
 			}
 			else
 			{
 				sortedElements = sortedElements.Skip(1).ToList();
 				Console.WriteLine(string.Join(", ", sortedElements));
+				
 				return;
 			}
 		}
