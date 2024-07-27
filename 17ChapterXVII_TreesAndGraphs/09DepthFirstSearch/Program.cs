@@ -19,7 +19,7 @@ namespace _09DepthFirstSearch
 			Console.WriteLine();
 
 			GraphDepthFirstSearchTest.TestGraphDepthFirstSearch();
-            Console.WriteLine();
+                        Console.WriteLine();
 		}
 
 		public static Graph CreateGraph()
