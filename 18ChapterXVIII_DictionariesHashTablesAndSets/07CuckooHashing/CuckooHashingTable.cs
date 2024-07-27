@@ -9,9 +9,7 @@ namespace _07CuckooHashing
 
         private int currentCapacity;
         private int count;
-        private Nullable<KeyValuePair<K, V>>[] hashTable;
-
-        
+        private Nullable<KeyValuePair<K, V>>[] hashTable;        
 
         public CuckooHashingTable(int capacity)
         {            
