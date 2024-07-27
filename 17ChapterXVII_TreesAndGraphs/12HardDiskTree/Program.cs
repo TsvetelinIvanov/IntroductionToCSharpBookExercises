@@ -56,7 +56,7 @@ namespace _12HardDiskTree
 			}
 			catch (UnauthorizedAccessException uae)
 			{
-                Console.WriteLine(uae.Message);
+                		Console.WriteLine(uae.Message);
 			}
 		}
 
@@ -128,9 +128,9 @@ namespace _12HardDiskTree
 						directories.Enqueue(subDirectoriy);
 					}
 				}
-            }
+            		}
 
-            return currentFolder;
+            		return currentFolder;
 		}
 	}
 }
