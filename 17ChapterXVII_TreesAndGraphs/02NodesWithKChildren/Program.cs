@@ -17,8 +17,8 @@ namespace _02NodesWithKChildren
 			TreeNode<int> root = ParseTree(rawTree);
 			Tree<int> tree = new Tree<int>(root);
 			int[] subTrees = tree.GetSubtreesWithKNodes(childNodesCountK).ToArray();
-            Array.Sort(subTrees);
-            Console.WriteLine(string.Join(", ", subTrees));
+                        Array.Sort(subTrees);
+                        Console.WriteLine(string.Join(", ", subTrees));
 		}
 
 		private static TreeNode<int> ParseTree(string tree)
