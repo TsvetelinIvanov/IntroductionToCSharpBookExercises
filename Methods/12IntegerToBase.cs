@@ -22,6 +22,7 @@ namespace _12IntegerToBase
                 number = (int)number / toBase;
                 numberStringBase = numberReminder + numberStringBase;
             }
+            
             double numberInBase = double.Parse(numberStringBase);
 
             return numberInBase;
