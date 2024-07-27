@@ -31,7 +31,7 @@ namespace _10BreadthFirstSearch
 				int currentNode = currentNodes.Dequeue();
 				nodesLeft--;
 
-                Console.Write(currentNode + " ");
+                                Console.Write(currentNode + " ");
 
 				foreach (int child in ChildNodes[currentNode])
 				{
