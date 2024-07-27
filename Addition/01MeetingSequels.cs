@@ -22,6 +22,7 @@ namespace _01MeetingSequels
                     spiralCurrent == tribonacciThird || spiralCurrent == tribonacciCurrent)
                 {
                     Console.WriteLine(spiralCurrent);
+                    
                     return;
                 }
                 else if (tribonacciCurrent < spiralCurrent)
