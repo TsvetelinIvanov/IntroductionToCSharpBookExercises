@@ -8,8 +8,8 @@ namespace _18ShortestPathInLabyrinth
     {
 		static void Main(string[] args)
 		{
-            int[,] labyrinth = Read(out Cell startCell);
-            Walk(labyrinth, startCell);
+                        int[,] labyrinth = Read(out Cell startCell);
+                        Walk(labyrinth, startCell);
 			Print(labyrinth);
 		}
 
