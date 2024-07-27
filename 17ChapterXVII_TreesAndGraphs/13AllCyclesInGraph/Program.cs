@@ -38,9 +38,9 @@ namespace _13AllCyclesInGraph
 			Graph graph = CreateGraph();
 			graph.GetAllCycles(0);
 			if (!graph.HasCycle)
-            {
-                Console.WriteLine("No cycles!");
-            }            
+            		{
+                		Console.WriteLine("No cycles!");
+            		}            
 		}
 
 		private static Graph CreateGraph()
