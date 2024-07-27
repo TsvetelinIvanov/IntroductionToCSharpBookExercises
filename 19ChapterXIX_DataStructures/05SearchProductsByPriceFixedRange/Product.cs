@@ -17,8 +17,7 @@ namespace _05SearchProductsByPriceFixedRange
             this.price = price;
         }
 
-        public decimal Price => this.price;
-        
+        public decimal Price => this.price;        
 
         public override string ToString()
         {
