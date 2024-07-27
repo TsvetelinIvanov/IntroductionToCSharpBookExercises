@@ -24,6 +24,7 @@ namespace _05SearchProductsByPriceFixedRange
             if (searchedProducts.Count == 0)
             {
                 Console.WriteLine("There are no products in this range!");
+                
                 return;
             }
             
