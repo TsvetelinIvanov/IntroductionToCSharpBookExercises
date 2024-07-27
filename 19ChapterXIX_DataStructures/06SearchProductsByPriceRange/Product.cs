@@ -19,7 +19,6 @@ namespace _06SearchProductsByPriceRange
 
         public decimal Price => this.price;
 
-
         public override string ToString()
         {
             return $"Name: {this.name}, Price: {this.price:f2}, Barcode: {this.barcode}, Vendor: {this.vendor}.";
