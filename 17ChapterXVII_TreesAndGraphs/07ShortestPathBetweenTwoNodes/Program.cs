@@ -47,6 +47,7 @@ namespace _07ShortestPathBetweenTwoNodes
                 if (currentEdge.EdgeNodeOne == goalNode || currentEdge.EdgeNodeTwo == goalNode)
                 {
                     Console.WriteLine(currentEdge.length);
+                    
                     return;
                 }
 
