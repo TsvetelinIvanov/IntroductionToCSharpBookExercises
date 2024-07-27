@@ -112,7 +112,6 @@ namespace _25_27Fraction
 
             fract.FractionNumerator /= commonDivisor;
             fract.FractionDenominator /= commonDivisor;
-
         }
 
         public static Fraction Parse(string fractionAsString)
