@@ -113,6 +113,7 @@ namespace _05ArithmeticalExpressionWithParentheses
             try
             {
                 double.Parse(token);
+                
                 return true;
             }
             catch (Exception)
