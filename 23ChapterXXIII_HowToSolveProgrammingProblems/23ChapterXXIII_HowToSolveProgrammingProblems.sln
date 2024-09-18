@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01LinesBetweenEqualHalfs", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02AlternativeSequences", "02AlternativeSequences\02AlternativeSequences.csproj", "{77D3D307-72F8-45CA-9A50-F82031D0B274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03ShortestPathBetweenJuctions", "03ShortestPathBetweenJuctions\03ShortestPathBetweenJuctions.csproj", "{9303E515-158F-4A6B-8D77-448EF095F8B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03ShortestPathBetweenJunctions", "03ShortestPathBetweenJunctions\03ShortestPathBetweenJunctions.csproj", "{9303E515-158F-4A6B-8D77-448EF095F8B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04ConvexHullAlgorithm", "04ConvexHullAlgorithm\04ConvexHullAlgorithm.csproj", "{560803F6-2BE6-488B-B82B-E118CA9C6CF3}"
 EndProject
